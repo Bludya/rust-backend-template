@@ -1,0 +1,16 @@
+{
+    "name": "rust-workspace",
+    "service": "rust-workspace",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "${localWorkspaceFolder}",
+    "dockerComposeFile": "docker-compose.yml",
+    "settings": {
+    },	
+    "extensions": [
+		"hookyqr.beautify",
+		"ms-azuretools.vscode-docker",
+		"dbaeumer.vscode-eslint",
+		"wallabyjs.quokka-vscode",
+		"rust-lang.rust-analyzer"
+	]
+}
